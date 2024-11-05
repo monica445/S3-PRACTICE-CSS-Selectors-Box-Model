@@ -1,0 +1,106 @@
+body{
+    font-family: verdana;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(24, 115, 125);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+}
+.header img{
+    width: 100px;
+    height: 100px;
+}   
+.bio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.bio p{
+    color: rgb(24, 115, 125);
+}
+.account-num{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.block{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.block .label{
+    font-size: 10px;
+    color: rgb(24, 115, 125);
+}
+.block .number{
+    font-weight: bold;
+}
+.Button{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.btn{
+    width: 120px;
+    height: 35px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.btn1{
+    color: white;
+    background-color:rgb(24, 115, 125);
+    border-color: rgb(73, 176, 187);
+    margin-right: 30px;
+}
+.btn2{
+    color: black;
+    background-color:white;
+    border-color: rgb(73, 176, 187);
+}
+.btn1:hover{
+    background-color: rgb(5, 70, 78);
+}
+.btn2:hover{
+    background-color: rgb(233, 232, 232);
+}
+.text{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.media-icon{
+    margin-right: 15px;
+}
+.fb-icon a{
+    color: rgb(56, 56, 219);
+}
+.ig-icon a{
+    color: red;
+}
+.tiktok-icon a{
+    color: black;
+}
